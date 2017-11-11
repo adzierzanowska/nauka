@@ -1,0 +1,49 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0; 
+	background: #ADD8E6;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block; 
+}
+nav {
+	background-color: #4577ED;
+	text-align: center;
+}
+a {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 10px;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	background: #4577ED;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+a:hover {
+    background: #3255a7;
+}
+nav ul ul li {
+	display: block;
+}
+nav ul ul {
+	display: none;
+}
+nav li:hover ul {
+	display: block;
+	position: absolute;
+}
+nav ul ul a {
+	display: block;
+}
+nav ul ul a:hover {
+    background: #3255a7;
+    width: 110px;
+}
