@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .jumbotron {
 	width: 100%;
 	height: 100vh;
@@ -28,9 +31,6 @@
 }
 button:hover {
 	background: #7E9FED;
-}
-* {
-    box-sizing: border-box;
 }
 .gallery img {
 	float: left;
